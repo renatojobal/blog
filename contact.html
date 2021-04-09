@@ -59,10 +59,10 @@ form: true
           'Accept': 'application/json'
       }
     }).then(response => {
-      status.innerHTML = "<div class='alert alert-success'>Thanks for your submission!</div>";
+      status.innerHTML = "<div class='alert alert-success'>Gracias por tu correo!</div>";
       form.reset()
     }).catch(error => {
-      status.innerHTML = "<div class='alert alert-error'>Oops! There was a problem submitting your form</div>"
+      status.innerHTML = "<div class='alert alert-danger'>Oops! Algo salió mal mientras se enviaba el formulario. <p>Trata de enviarme un mensaje a renatojobal@gmail.com</p></div>"
     });
   }
   form.addEventListener("submit", handleSubmit)
