@@ -1,6 +1,6 @@
 title:              Renatojobal Blog
 email:              renatojobal@gmail.com
-description:        A Blog for general purposes
+description:        UN blog para propósitos generales
 author:             Renato Balcázar
 baseurl:            "/blog"
 url:                "https://www.renatojobal.com"
@@ -8,7 +8,6 @@ url:                "https://www.renatojobal.com"
 # Social Profiles
 twitter_username:   renatojobal
 github_username:    renatojobal
-facebook_username:  renatojobal
 instagram_username: renatojobal
 linkedin_username:  renatojobal
 
